@@ -8,24 +8,5 @@
   .card__profile {
     display: flex;
     align-items: center;
-
-    .card__profile-avatar {
-      width: 40px;
-      margin-right: 18px;
-      border: 3px solid gray;
-      border-radius: 50%;
-      -webkit-border-radius: 50%;
-      -moz-border-radius: 50%;
-      -ms-border-radius: 50%;
-      -o-border-radius: 50%;
-    }
-
-    .card__profile-name {
-      color: white;
-    }
-
-    .card__profile-status {
-      color: gray;
-    }
   }
 }

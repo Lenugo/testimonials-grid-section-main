@@ -1,16 +1,13 @@
 @use "../abstract/colors" as c;
+@use "../mixins/cards" as *;
 
 .card-daniel {
   position: relative;
-  background-color: c.$moderate-violet;
+  @include cardProfileComponent(c.$moderate-violet, #a775f1, c.$light-grayish-blue);
 
   .card__quotation {
     position: absolute;
     right: 22px;
     top: 1px;
-  }
-
-  .card__profile {
-    z-index: 99;
   }
 }
