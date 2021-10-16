@@ -1,0 +1,5 @@
+@use "../abstract/colors" as c;
+
+.card-jeanette {
+  background-color: c.$light-gray;
+}

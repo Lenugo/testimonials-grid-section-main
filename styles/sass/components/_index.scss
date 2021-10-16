@@ -1,6 +1,7 @@
 @forward "cards";
-
-.container {
-  width: 100%;
-  height: 100vh;
-}
+@forward "paragraphs";
+@forward "card-daniel";
+@forward "card-jonathan";
+@forward "card-jeanette";
+@forward "card-patrick";
+@forward "card-kira";

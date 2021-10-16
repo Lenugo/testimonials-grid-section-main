@@ -1,0 +1,5 @@
+@use "../abstract/colors" as c;
+
+.card-jonathan {
+  background-color: c.$very-dark-grayish-blue;
+}

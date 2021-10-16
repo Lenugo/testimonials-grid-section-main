@@ -1,16 +1,13 @@
-@use "../mixins/colors" as *;
-
 .card {
-  @include bgColor(blue);
   width: 337px;
   height: max-content;
   margin: 1rem;
-  padding: 1.6rem;
+  padding: 1rem;
+  border-radius: 2%;
 
   .card__profile {
     display: flex;
     align-items: center;
-    padding-bottom: 20px;
 
     .card__profile-avatar {
       width: 40px;

@@ -1,0 +1,16 @@
+@use "../abstract/colors" as c;
+
+.card-daniel {
+  position: relative;
+  background-color: c.$moderate-violet;
+
+  .card__quotation {
+    position: absolute;
+    right: 22px;
+    top: 1px;
+  }
+
+  .card__profile {
+    z-index: 99;
+  }
+}

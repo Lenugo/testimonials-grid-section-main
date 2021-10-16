@@ -1,2 +1,9 @@
 @forward "abstract";
-@use "components";
+@forward "components";
+@use "./abstract/colors" as c;
+
+.container {
+  width: 100%;
+  background-color: c.$light-grayish-blue;
+  padding: 1rem 0;
+}
