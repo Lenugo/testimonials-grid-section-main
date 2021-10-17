@@ -3,8 +3,6 @@
 @use "../mixins/paragraphs" as *;
 
 .card-patrick {
-  background-color: c.$very-dark-blackish-blue;
-
-  @include cardProfileComponent(c.$moderate-violet, #a775f1, c.$light-grayish-blue);
-  @include paragraphStyles(c.$white, 23.5px, 16px);
+  @include cardProfileComponent(c.$very-dark-blackish-blue, c.$moderate-violet, c.$light-grayish-blue);
+  @include paragraphStyles(c.$light-grayish-blue, 23.5px, 15.5px);
 }

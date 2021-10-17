@@ -60,7 +60,6 @@ body {
 
 .card-jonathan {
   background-color: #48556a;
-  background-color: #48556a;
 }
 .card-jonathan .card__profile-avatar {
   width: 40px;
@@ -121,12 +120,11 @@ body {
 
 .card-patrick {
   background-color: #19212e;
-  background-color: #7541c8;
 }
 .card-patrick .card__profile-avatar {
   width: 40px;
   margin-right: 18px;
-  border: 3px solid #a775f1;
+  border: 3px solid #7541c8;
   border-radius: 50%;
 }
 .card-patrick .card__profile-name {
@@ -139,15 +137,15 @@ body {
 }
 .card-patrick .card-paragraph__principal {
   padding: 20px 0;
-  color: white;
+  color: #ecf2f8;
   z-index: 9;
   font-size: 23.5px;
   font-weight: 600;
 }
 .card-patrick .card-paragraph__secondary {
-  color: white;
+  color: #ecf2f8;
   opacity: 70%;
-  font-size: 16px;
+  font-size: 15.5px;
 }
 
 .card-kira {

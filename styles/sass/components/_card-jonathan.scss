@@ -3,8 +3,6 @@
 @use "../mixins/paragraphs" as *;
 
 .card-jonathan {
-  background-color: c.$very-dark-grayish-blue;
-
   @include cardProfileComponent(c.$very-dark-grayish-blue, c.$light-gray, c.$light-grayish-blue);
   @include paragraphStyles(c.$white, 23.5px, 14px);
 }
