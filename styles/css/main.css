@@ -22,17 +22,6 @@ body {
   align-items: center;
 }
 
-.card-paragraph__principal {
-  padding: 20px 0;
-  font-size: 22px;
-  font-weight: 600;
-}
-
-.card-paragraph__secondary {
-  color: gray;
-  font-size: 16px;
-}
-
 .card-daniel {
   position: relative;
   background-color: #7541c8;
@@ -47,8 +36,21 @@ body {
   color: #ecf2f8;
 }
 .card-daniel .card__profile-status {
-  color: gray;
+  color: #ecf2f8;
+  opacity: 50%;
   font-size: small;
+}
+.card-daniel .card-paragraph__principal {
+  padding: 20px 0;
+  color: white;
+  z-index: 9;
+  font-size: 23.5px;
+  font-weight: 600;
+}
+.card-daniel .card-paragraph__secondary {
+  color: white;
+  opacity: 70%;
+  font-size: 16px;
 }
 .card-daniel .card__quotation {
   position: absolute;

@@ -13,7 +13,8 @@
   }
 
   .card__profile-status {
-    color: gray;
+    color: $nameColor;
+    opacity: 50%;
     font-size: small;
   }
 }

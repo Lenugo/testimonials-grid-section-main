@@ -1,9 +1,11 @@
 @use "../abstract/colors" as c;
 @use "../mixins/cards" as *;
+@use "../mixins/paragraphs" as *;
 
 .card-daniel {
   position: relative;
   @include cardProfileComponent(c.$moderate-violet, #a775f1, c.$light-grayish-blue);
+  @include paragraphStyles(c.$white, 23.5px, 16px);
 
   .card__quotation {
     position: absolute;
