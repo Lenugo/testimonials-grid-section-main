@@ -1,5 +1,8 @@
 @use "../abstract/colors" as c;
+@use "../mixins/cards" as *;
+@use "../mixins/paragraphs" as *;
 
 .card-jeanette {
-  background-color: c.$light-gray;
+  @include cardProfileComponent(c.$white, c.$light-gray, c.$very-dark-blackish-blue);
+  @include paragraphStyles(c.$very-dark-blackish-blue, 23.5px, 16px);
 }
