@@ -5,6 +5,6 @@
 .card-kira {
   background-color: c.$white;
 
-  @include cardProfileComponent(c.$moderate-violet, #a775f1, c.$light-grayish-blue);
-  @include paragraphStyles(c.$white, 23.5px, 16px);
+  @include cardProfileComponent(c.$white, c.$very-dark-grayish-blue, c.$very-dark-blackish-blue);
+  @include paragraphStyles(c.$very-dark-blackish-blue, 23.5px, 15.5px);
 }
