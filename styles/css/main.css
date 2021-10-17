@@ -21,10 +21,17 @@ body {
   display: flex;
   align-items: center;
 }
+@media screen and (min-width: 678px) {
+  .card {
+    width: auto;
+  }
+}
 
 .card-daniel {
   position: relative;
   background-color: #7541c8;
+  grid-area: daniel;
+  grid-column: 1/3;
 }
 .card-daniel .card__profile-avatar {
   width: 40px;
@@ -60,6 +67,7 @@ body {
 
 .card-jonathan {
   background-color: #48556a;
+  grid-area: jonathan;
 }
 .card-jonathan .card__profile-avatar {
   width: 40px;
@@ -90,6 +98,7 @@ body {
 
 .card-jeanette {
   background-color: white;
+  grid-area: jeanette;
 }
 .card-jeanette .card__profile-avatar {
   width: 40px;
@@ -120,6 +129,7 @@ body {
 
 .card-patrick {
   background-color: #19212e;
+  grid-area: patrick;
 }
 .card-patrick .card__profile-avatar {
   width: 40px;
@@ -151,6 +161,7 @@ body {
 .card-kira {
   background-color: white;
   background-color: white;
+  grid-area: kira;
 }
 .card-kira .card__profile-avatar {
   width: 40px;
@@ -183,6 +194,12 @@ body {
   width: 100%;
   background-color: #ecf2f8;
   padding: 1rem 0;
+}
+@media screen and (min-width: 678px) {
+  .container {
+    display: grid;
+    grid-template-areas: "daniel daniel jonathan kira" "jeanette patrick patrick kira";
+  }
 }
 
 /*# sourceMappingURL=main.css.map */

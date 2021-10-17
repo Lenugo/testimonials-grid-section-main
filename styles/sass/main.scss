@@ -6,4 +6,15 @@
   width: 100%;
   background-color: c.$light-grayish-blue;
   padding: 1rem 0;
+
+  @media screen and (min-width: 678px) {
+    display: grid;
+    // justify-content: center;
+    // grid-template-columns: repeat(4, 1fr);
+    // grid-template-rows: repeat(2, 1fr);
+
+    grid-template-areas:
+      "daniel daniel jonathan kira"
+      "jeanette patrick patrick kira";
+  }
 }

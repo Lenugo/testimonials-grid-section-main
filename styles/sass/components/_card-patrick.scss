@@ -5,4 +5,5 @@
 .card-patrick {
   @include cardProfileComponent(c.$very-dark-blackish-blue, c.$moderate-violet, c.$light-grayish-blue);
   @include paragraphStyles(c.$light-grayish-blue, 23.5px, 15.5px);
+  grid-area: patrick;
 }

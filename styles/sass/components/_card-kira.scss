@@ -7,4 +7,5 @@
 
   @include cardProfileComponent(c.$white, c.$very-dark-grayish-blue, c.$very-dark-blackish-blue);
   @include paragraphStyles(c.$very-dark-blackish-blue, 23.5px, 15.5px);
+  grid-area: kira;
 }

@@ -6,6 +6,8 @@
   position: relative;
   @include cardProfileComponent(c.$moderate-violet, #a775f1, c.$light-grayish-blue);
   @include paragraphStyles(c.$white, 23.5px, 16px);
+  grid-area: daniel;
+  grid-column: 1 / 3;
 
   .card__quotation {
     position: absolute;
