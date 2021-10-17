@@ -1,5 +1,10 @@
 @use "../abstract/colors" as c;
+@use "../mixins/cards" as *;
+@use "../mixins/paragraphs" as *;
 
 .card-patrick {
   background-color: c.$very-dark-blackish-blue;
+
+  @include cardProfileComponent(c.$moderate-violet, #a775f1, c.$light-grayish-blue);
+  @include paragraphStyles(c.$white, 23.5px, 16px);
 }
