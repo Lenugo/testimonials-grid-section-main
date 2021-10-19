@@ -6,6 +6,7 @@
 }
 
 body {
+  background-color: #ecf2f8;
   font-family: "Barlow Semi Condensed", sans-serif;
   font-size: 13px;
 }
@@ -21,17 +22,11 @@ body {
   display: flex;
   align-items: center;
 }
-@media screen and (min-width: 678px) {
-  .card {
-    width: auto;
-  }
-}
 
 .card-daniel {
   position: relative;
   background-color: #7541c8;
   grid-area: daniel;
-  grid-column: 1/3;
 }
 .card-daniel .card__profile-avatar {
   width: 40px;
@@ -64,6 +59,28 @@ body {
   right: 22px;
   top: 1px;
 }
+@media screen and (min-width: 678px) {
+  .card-daniel .card__quotation {
+    right: 48px;
+  }
+}
+@media screen and (min-width: 678px) {
+  .card-daniel {
+    width: 450px;
+  }
+  .card-daniel .card-paragraph__principal {
+    padding: 20px 0;
+    color: white;
+    z-index: 9;
+    font-size: 17.5px;
+    font-weight: 600;
+  }
+  .card-daniel .card-paragraph__secondary {
+    color: white;
+    opacity: 70%;
+    font-size: 12px;
+  }
+}
 
 .card-jonathan {
   background-color: #48556a;
@@ -94,6 +111,23 @@ body {
   color: white;
   opacity: 70%;
   font-size: 14px;
+}
+@media screen and (min-width: 678px) {
+  .card-jonathan {
+    width: 233px;
+  }
+  .card-jonathan .card-paragraph__principal {
+    padding: 20px 0;
+    color: white;
+    z-index: 9;
+    font-size: 19.5px;
+    font-weight: 600;
+  }
+  .card-jonathan .card-paragraph__secondary {
+    color: white;
+    opacity: 70%;
+    font-size: 13px;
+  }
 }
 
 .card-jeanette {
@@ -126,6 +160,23 @@ body {
   opacity: 70%;
   font-size: 16px;
 }
+@media screen and (min-width: 678px) {
+  .card-jeanette {
+    width: 233px;
+  }
+  .card-jeanette .card-paragraph__principal {
+    padding: 20px 0;
+    color: #19212e;
+    z-index: 9;
+    font-size: 21.5px;
+    font-weight: 600;
+  }
+  .card-jeanette .card-paragraph__secondary {
+    color: #19212e;
+    opacity: 70%;
+    font-size: 14.5px;
+  }
+}
 
 .card-patrick {
   background-color: #19212e;
@@ -156,6 +207,23 @@ body {
   color: #ecf2f8;
   opacity: 70%;
   font-size: 15.5px;
+}
+@media screen and (min-width: 678px) {
+  .card-patrick {
+    width: 450px;
+  }
+  .card-patrick .card-paragraph__principal {
+    padding: 20px 0;
+    color: #ecf2f8;
+    z-index: 9;
+    font-size: 17px;
+    font-weight: 600;
+  }
+  .card-patrick .card-paragraph__secondary {
+    color: #ecf2f8;
+    opacity: 70%;
+    font-size: 11.5px;
+  }
 }
 
 .card-kira {
@@ -189,15 +257,35 @@ body {
   opacity: 70%;
   font-size: 15.5px;
 }
+@media screen and (min-width: 678px) {
+  .card-kira {
+    width: 240px;
+  }
+  .card-kira .card-paragraph__principal {
+    padding: 20px 0;
+    color: #19212e;
+    z-index: 9;
+    font-size: 20px;
+    font-weight: 600;
+  }
+  .card-kira .card-paragraph__secondary {
+    color: #19212e;
+    opacity: 70%;
+    font-size: 14px;
+  }
+}
 
 .container {
   width: 100%;
-  background-color: #ecf2f8;
   padding: 1rem 0;
 }
 @media screen and (min-width: 678px) {
   .container {
     display: grid;
+    justify-content: center;
+    align-items: flex-start;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
     grid-template-areas: "daniel daniel jonathan kira" "jeanette patrick patrick kira";
   }
 }

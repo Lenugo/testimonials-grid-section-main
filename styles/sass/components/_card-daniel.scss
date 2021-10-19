@@ -7,11 +7,20 @@
   @include cardProfileComponent(c.$moderate-violet, #a775f1, c.$light-grayish-blue);
   @include paragraphStyles(c.$white, 23.5px, 16px);
   grid-area: daniel;
-  grid-column: 1 / 3;
 
   .card__quotation {
     position: absolute;
     right: 22px;
     top: 1px;
+
+    @media screen and (min-width: 678px) {
+      right: 48px;
+    }
+  }
+
+  @media screen and (min-width: 678px) {
+    width: 450px;
+
+    @include paragraphStyles(c.$white, 17.5px, 12px);
   }
 }

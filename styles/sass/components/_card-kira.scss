@@ -8,4 +8,9 @@
   @include cardProfileComponent(c.$white, c.$very-dark-grayish-blue, c.$very-dark-blackish-blue);
   @include paragraphStyles(c.$very-dark-blackish-blue, 23.5px, 15.5px);
   grid-area: kira;
+
+  @media screen and (min-width: 678px) {
+    width: 240px;
+    @include paragraphStyles(c.$very-dark-blackish-blue, 20px, 14px);
+  }
 }

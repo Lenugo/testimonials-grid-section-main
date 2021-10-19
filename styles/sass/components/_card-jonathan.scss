@@ -6,4 +6,10 @@
   @include cardProfileComponent(c.$very-dark-grayish-blue, c.$light-gray, c.$light-grayish-blue);
   @include paragraphStyles(c.$white, 23.5px, 14px);
   grid-area: jonathan;
+
+  @media screen and (min-width: 678px) {
+    width: 233px;
+
+    @include paragraphStyles(c.$white, 19.5px, 13px);
+  }
 }
