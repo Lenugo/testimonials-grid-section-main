@@ -1,15 +1,14 @@
 @use "../abstract/colors" as c;
 @use "../mixins/cards" as *;
 @use "../mixins/paragraphs" as *;
+@use "../mixins/responsive" as *;
 
 .card-patrick {
   @include cardProfileComponent(c.$very-dark-blackish-blue, c.$moderate-violet, c.$light-grayish-blue);
   @include paragraphStyles(c.$light-grayish-blue, 23.5px, 15.5px);
   grid-area: patrick;
 
-  @media screen and (min-width: 678px) {
-    width: 450px;
-
-    @include paragraphStyles(c.$light-grayish-blue, 17px, 11.5px);
+  @include breakpoint() {
+    @include paragraphStyles(c.$light-grayish-blue, 17px, 12px);
   }
 }

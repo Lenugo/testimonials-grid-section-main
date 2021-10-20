@@ -22,6 +22,13 @@ body {
   display: flex;
   align-items: center;
 }
+@media (min-width: 941px) {
+  .card {
+    width: auto;
+    height: auto;
+    margin: 0;
+  }
+}
 
 .card-daniel {
   position: relative;
@@ -59,15 +66,12 @@ body {
   right: 22px;
   top: 1px;
 }
-@media screen and (min-width: 678px) {
+@media (min-width: 941px) {
   .card-daniel .card__quotation {
     right: 48px;
   }
 }
-@media screen and (min-width: 678px) {
-  .card-daniel {
-    width: 450px;
-  }
+@media (min-width: 941px) {
   .card-daniel .card-paragraph__principal {
     padding: 20px 0;
     color: white;
@@ -112,10 +116,7 @@ body {
   opacity: 70%;
   font-size: 14px;
 }
-@media screen and (min-width: 678px) {
-  .card-jonathan {
-    width: 233px;
-  }
+@media (min-width: 941px) {
   .card-jonathan .card-paragraph__principal {
     padding: 20px 0;
     color: white;
@@ -160,10 +161,7 @@ body {
   opacity: 70%;
   font-size: 16px;
 }
-@media screen and (min-width: 678px) {
-  .card-jeanette {
-    width: 233px;
-  }
+@media (min-width: 941px) {
   .card-jeanette .card-paragraph__principal {
     padding: 20px 0;
     color: #19212e;
@@ -174,7 +172,7 @@ body {
   .card-jeanette .card-paragraph__secondary {
     color: #19212e;
     opacity: 70%;
-    font-size: 14.5px;
+    font-size: 13px;
   }
 }
 
@@ -208,10 +206,7 @@ body {
   opacity: 70%;
   font-size: 15.5px;
 }
-@media screen and (min-width: 678px) {
-  .card-patrick {
-    width: 450px;
-  }
+@media (min-width: 941px) {
   .card-patrick .card-paragraph__principal {
     padding: 20px 0;
     color: #ecf2f8;
@@ -222,7 +217,7 @@ body {
   .card-patrick .card-paragraph__secondary {
     color: #ecf2f8;
     opacity: 70%;
-    font-size: 11.5px;
+    font-size: 12px;
   }
 }
 
@@ -257,10 +252,7 @@ body {
   opacity: 70%;
   font-size: 15.5px;
 }
-@media screen and (min-width: 678px) {
-  .card-kira {
-    width: 240px;
-  }
+@media (min-width: 941px) {
   .card-kira .card-paragraph__principal {
     padding: 20px 0;
     color: #19212e;
@@ -271,7 +263,7 @@ body {
   .card-kira .card-paragraph__secondary {
     color: #19212e;
     opacity: 70%;
-    font-size: 14px;
+    font-size: 13px;
   }
 }
 
@@ -279,14 +271,17 @@ body {
   width: 100%;
   padding: 1rem 0;
 }
-@media screen and (min-width: 678px) {
+@media (min-width: 941px) {
   .container {
+    width: 941px;
     display: grid;
-    justify-content: center;
-    align-items: flex-start;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(2, 1fr);
-    grid-template-areas: "daniel daniel jonathan kira" "jeanette patrick patrick kira";
+    margin: auto;
+    grid-gap: 16px;
+    height: 100vh;
+    padding: 14em 0;
+    grid-template-areas: "daniel   daniel  jonathan  kira" "jeanette patrick patrick   kira";
   }
 }
 

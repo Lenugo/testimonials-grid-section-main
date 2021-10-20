@@ -1,3 +1,5 @@
+@use "../mixins/responsive" as *;
+
 .card {
   width: 337px;
   height: max-content;
@@ -8,5 +10,11 @@
   .card__profile {
     display: flex;
     align-items: center;
+  }
+
+  @include breakpoint() {
+    width: auto;
+    height: auto;
+    margin: 0;
   }
 }

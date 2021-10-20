@@ -1,6 +1,7 @@
 @use "../abstract/colors" as c;
 @use "../mixins/cards" as *;
 @use "../mixins/paragraphs" as *;
+@use "../mixins/responsive" as *;
 
 .card-kira {
   background-color: c.$white;
@@ -9,8 +10,7 @@
   @include paragraphStyles(c.$very-dark-blackish-blue, 23.5px, 15.5px);
   grid-area: kira;
 
-  @media screen and (min-width: 678px) {
-    width: 240px;
-    @include paragraphStyles(c.$very-dark-blackish-blue, 20px, 14px);
+  @include breakpoint() {
+    @include paragraphStyles(c.$very-dark-blackish-blue, 20px, 13px);
   }
 }
