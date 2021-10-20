@@ -35,7 +35,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [Solution in Frontend Mentor](https://www.frontendmentor.io/challenges/testimonials-grid-section-Nnw6J7Un7/hub/grid-section-responsive-with-sass-lH7C80REP)
 - Live Site URL: [testimonial-grid-section-nain](https://lenugo.github.io/testimonials-grid-section-main/)
 
 ## My process
