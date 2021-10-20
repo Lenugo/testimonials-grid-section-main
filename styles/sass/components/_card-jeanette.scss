@@ -4,9 +4,9 @@
 @use "../mixins/responsive" as *;
 
 .card-jeanette {
+  grid-area: jeanette;
   @include cardProfileComponent(c.$white, c.$light-gray, c.$very-dark-blackish-blue);
   @include paragraphStyles(c.$very-dark-blackish-blue, 23.5px, 16px);
-  grid-area: jeanette;
 
   @include breakpoint() {
     @include paragraphStyles(c.$very-dark-blackish-blue, 21.5px, 13px);

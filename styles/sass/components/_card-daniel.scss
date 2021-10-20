@@ -5,17 +5,18 @@
 
 .card-daniel {
   position: relative;
-  @include cardProfileComponent(c.$moderate-violet, #a775f1, c.$light-grayish-blue);
-  @include paragraphStyles(c.$white, 23.5px, 16px);
   grid-area: daniel;
+  @include cardProfileComponent(c.$moderate-violet, #a775f1, c.$light-grayish-blue);
+  @include paragraphStyles(c.$white, 23.3px, 16px);
 
   .card__quotation {
     position: absolute;
     right: 22px;
     top: 1px;
+    opacity: 50%;
 
     @include breakpoint() {
-      right: 48px;
+      right: 63px;
     }
   }
 

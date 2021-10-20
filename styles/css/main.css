@@ -32,8 +32,8 @@ body {
 
 .card-daniel {
   position: relative;
-  background-color: #7541c8;
   grid-area: daniel;
+  background-color: #7541c8;
 }
 .card-daniel .card__profile-avatar {
   width: 40px;
@@ -53,7 +53,7 @@ body {
   padding: 20px 0;
   color: white;
   z-index: 9;
-  font-size: 23.5px;
+  font-size: 23.3px;
   font-weight: 600;
 }
 .card-daniel .card-paragraph__secondary {
@@ -65,10 +65,11 @@ body {
   position: absolute;
   right: 22px;
   top: 1px;
+  opacity: 50%;
 }
 @media (min-width: 941px) {
   .card-daniel .card__quotation {
-    right: 48px;
+    right: 63px;
   }
 }
 @media (min-width: 941px) {
@@ -87,8 +88,8 @@ body {
 }
 
 .card-jonathan {
-  background-color: #48556a;
   grid-area: jonathan;
+  background-color: #48556a;
 }
 .card-jonathan .card__profile-avatar {
   width: 40px;
@@ -132,8 +133,8 @@ body {
 }
 
 .card-jeanette {
-  background-color: white;
   grid-area: jeanette;
+  background-color: white;
 }
 .card-jeanette .card__profile-avatar {
   width: 40px;
@@ -177,8 +178,8 @@ body {
 }
 
 .card-patrick {
-  background-color: #19212e;
   grid-area: patrick;
+  background-color: #19212e;
 }
 .card-patrick .card__profile-avatar {
   width: 40px;
@@ -223,8 +224,8 @@ body {
 
 .card-kira {
   background-color: white;
-  background-color: white;
   grid-area: kira;
+  background-color: white;
 }
 .card-kira .card__profile-avatar {
   width: 40px;
@@ -250,7 +251,7 @@ body {
 .card-kira .card-paragraph__secondary {
   color: #19212e;
   opacity: 70%;
-  font-size: 15.5px;
+  font-size: 15.2px;
 }
 @media (min-width: 941px) {
   .card-kira .card-paragraph__principal {
