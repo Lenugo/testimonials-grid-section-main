@@ -9,6 +9,18 @@ body {
   background-color: #ecf2f8;
   font-family: "Barlow Semi Condensed", sans-serif;
   font-size: 13px;
+  position: relative;
+}
+
+.attribution {
+  font-size: 11px;
+  position: absolute;
+  bottom: 6px;
+  right: 40%;
+}
+
+.attribution > a {
+  color: #3e52a3;
 }
 
 .card {
