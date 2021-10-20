@@ -21,6 +21,6 @@
   }
 
   @include breakpoint() {
-    @include paragraphStyles(c.$white, 17.5px, 12px);
+    @include paragraphStyles(c.$white, 15px, 12px);
   }
 }
