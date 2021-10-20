@@ -271,6 +271,9 @@ body {
 .container {
   width: 100%;
   padding: 1rem 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 @media (min-width: 941px) {
   .container {
@@ -282,6 +285,7 @@ body {
     grid-gap: 16px;
     height: 100vh;
     padding: 14em 0;
+    align-items: stretch;
     grid-template-areas: "daniel   daniel  jonathan  kira" "jeanette patrick patrick   kira";
   }
 }

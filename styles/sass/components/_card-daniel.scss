@@ -6,7 +6,7 @@
 .card-daniel {
   position: relative;
   grid-area: daniel;
-  @include cardProfileComponent(c.$moderate-violet, #a775f1, c.$light-grayish-blue);
+  @include cardProfileComponent(c.$moderate-violet, c.$border-purple, c.$light-grayish-blue);
   @include paragraphStyles(c.$white, 23.3px, 16px);
 
   .card__quotation {
