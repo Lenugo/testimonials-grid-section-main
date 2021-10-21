@@ -6,9 +6,9 @@
 .card-jeanette {
   grid-area: jeanette;
   @include cardProfileComponent(c.$white, c.$light-gray, c.$very-dark-blackish-blue);
-  @include paragraphStyles(c.$very-dark-blackish-blue, 23.5px, 16px);
+  @include paragraphStyles(c.$very-dark-blackish-blue, 1.469rem, 1rem);
 
   @include breakpoint() {
-    @include paragraphStyles(c.$very-dark-blackish-blue, 21.5px, 13px);
+    @include paragraphStyles(c.$very-dark-blackish-blue, 1.344rem, 0.813rem);
   }
 }

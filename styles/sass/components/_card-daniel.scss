@@ -7,20 +7,22 @@
   position: relative;
   grid-area: daniel;
   @include cardProfileComponent(c.$moderate-violet, c.$border-purple, c.$light-grayish-blue);
-  @include paragraphStyles(c.$white, 23.3px, 16px);
+  @include paragraphStyles(c.$white, 1.47rem, 1rem);
 
   .card__quotation {
     position: absolute;
-    right: 22px;
+    right: 1.1rem;
     top: 1px;
     opacity: 50%;
+    width: 8.5em;
 
     @include breakpoint() {
-      right: 63px;
+      right: 4rem;
+      width: 7.5em;
     }
   }
 
   @include breakpoint() {
-    @include paragraphStyles(c.$white, 15px, 12px);
+    @include paragraphStyles(c.$white, 1.1rem, 0.74rem);
   }
 }

@@ -8,7 +8,7 @@
 body {
   background-color: #ecf2f8;
   font-family: "Barlow Semi Condensed", sans-serif;
-  font-size: 13px;
+  font-size: 81.25%;
   position: relative;
 }
 
@@ -24,7 +24,7 @@ body {
 }
 
 .card {
-  width: 337px;
+  width: 21.063rem;
   height: max-content;
   margin: 1rem;
   padding: 1rem;
@@ -39,6 +39,7 @@ body {
     width: auto;
     height: auto;
     margin: 0;
+    box-shadow: rgba(99, 99, 99, 0.2) 3px 2px 8px 0px;
   }
 }
 
@@ -55,6 +56,7 @@ body {
 }
 .card-daniel .card__profile-name {
   color: #ecf2f8;
+  font-size: larger;
 }
 .card-daniel .card__profile-status {
   color: #ecf2f8;
@@ -65,22 +67,29 @@ body {
   padding: 20px 0;
   color: white;
   z-index: 9;
-  font-size: 23.3px;
+  font-size: 1.47rem;
 }
 .card-daniel .card-paragraph__secondary {
   color: white;
   opacity: 70%;
-  font-size: 16px;
+  font-size: 1rem;
+}
+@media (min-width: 941px) {
+  .card-daniel {
+    font-weight: 600;
+  }
 }
 .card-daniel .card__quotation {
   position: absolute;
-  right: 22px;
+  right: 1.1rem;
   top: 1px;
   opacity: 50%;
+  width: 8.5em;
 }
 @media (min-width: 941px) {
   .card-daniel .card__quotation {
-    right: 63px;
+    right: 4rem;
+    width: 7.5em;
   }
 }
 @media (min-width: 941px) {
@@ -88,12 +97,17 @@ body {
     padding: 20px 0;
     color: white;
     z-index: 9;
-    font-size: 15px;
+    font-size: 1.1rem;
   }
   .card-daniel .card-paragraph__secondary {
     color: white;
     opacity: 70%;
-    font-size: 12px;
+    font-size: 0.74rem;
+  }
+}
+@media (min-width: 941px) and (min-width: 941px) {
+  .card-daniel {
+    font-weight: 600;
   }
 }
 
@@ -109,6 +123,7 @@ body {
 }
 .card-jonathan .card__profile-name {
   color: #ecf2f8;
+  font-size: larger;
 }
 .card-jonathan .card__profile-status {
   color: #ecf2f8;
@@ -119,24 +134,34 @@ body {
   padding: 20px 0;
   color: white;
   z-index: 9;
-  font-size: 23.5px;
+  font-size: 1.469rem;
 }
 .card-jonathan .card-paragraph__secondary {
   color: white;
   opacity: 70%;
-  font-size: 14px;
+  font-size: 0.875rem;
+}
+@media (min-width: 941px) {
+  .card-jonathan {
+    font-weight: 600;
+  }
 }
 @media (min-width: 941px) {
   .card-jonathan .card-paragraph__principal {
     padding: 20px 0;
     color: white;
     z-index: 9;
-    font-size: 19.5px;
+    font-size: 1.219rem;
   }
   .card-jonathan .card-paragraph__secondary {
     color: white;
     opacity: 70%;
-    font-size: 13px;
+    font-size: 0.813rem;
+  }
+}
+@media (min-width: 941px) and (min-width: 941px) {
+  .card-jonathan {
+    font-weight: 600;
   }
 }
 
@@ -152,6 +177,7 @@ body {
 }
 .card-jeanette .card__profile-name {
   color: #19212e;
+  font-size: larger;
 }
 .card-jeanette .card__profile-status {
   color: #19212e;
@@ -162,24 +188,34 @@ body {
   padding: 20px 0;
   color: #19212e;
   z-index: 9;
-  font-size: 23.5px;
+  font-size: 1.469rem;
 }
 .card-jeanette .card-paragraph__secondary {
   color: #19212e;
   opacity: 70%;
-  font-size: 16px;
+  font-size: 1rem;
+}
+@media (min-width: 941px) {
+  .card-jeanette {
+    font-weight: 600;
+  }
 }
 @media (min-width: 941px) {
   .card-jeanette .card-paragraph__principal {
     padding: 20px 0;
     color: #19212e;
     z-index: 9;
-    font-size: 21.5px;
+    font-size: 1.344rem;
   }
   .card-jeanette .card-paragraph__secondary {
     color: #19212e;
     opacity: 70%;
-    font-size: 13px;
+    font-size: 0.813rem;
+  }
+}
+@media (min-width: 941px) and (min-width: 941px) {
+  .card-jeanette {
+    font-weight: 600;
   }
 }
 
@@ -195,6 +231,7 @@ body {
 }
 .card-patrick .card__profile-name {
   color: #ecf2f8;
+  font-size: larger;
 }
 .card-patrick .card__profile-status {
   color: #ecf2f8;
@@ -205,24 +242,34 @@ body {
   padding: 20px 0;
   color: #ecf2f8;
   z-index: 9;
-  font-size: 21px;
+  font-size: 1.438rem;
 }
 .card-patrick .card-paragraph__secondary {
   color: #ecf2f8;
   opacity: 70%;
-  font-size: 15.5px;
+  font-size: 0.969rem;
+}
+@media (min-width: 941px) {
+  .card-patrick {
+    font-weight: 600;
+  }
 }
 @media (min-width: 941px) {
   .card-patrick .card-paragraph__principal {
     padding: 20px 0;
     color: #ecf2f8;
     z-index: 9;
-    font-size: 17px;
+    font-size: 1.063rem;
   }
   .card-patrick .card-paragraph__secondary {
     color: #ecf2f8;
     opacity: 70%;
-    font-size: 12px;
+    font-size: 0.744rem;
+  }
+}
+@media (min-width: 941px) and (min-width: 941px) {
+  .card-patrick {
+    font-weight: 600;
   }
 }
 
@@ -239,6 +286,7 @@ body {
 }
 .card-kira .card__profile-name {
   color: #19212e;
+  font-size: larger;
 }
 .card-kira .card__profile-status {
   color: #19212e;
@@ -249,24 +297,34 @@ body {
   padding: 20px 0;
   color: #19212e;
   z-index: 9;
-  font-size: 20.5px;
+  font-size: 1.281rem;
 }
 .card-kira .card-paragraph__secondary {
   color: #19212e;
   opacity: 70%;
-  font-size: 15.2px;
+  font-size: 0.95rem;
+}
+@media (min-width: 941px) {
+  .card-kira {
+    font-weight: 600;
+  }
 }
 @media (min-width: 941px) {
   .card-kira .card-paragraph__principal {
     padding: 20px 0;
     color: #19212e;
     z-index: 9;
-    font-size: 20px;
+    font-size: 1.25rem;
   }
   .card-kira .card-paragraph__secondary {
     color: #19212e;
     opacity: 70%;
-    font-size: 13px;
+    font-size: 0.813rem;
+  }
+}
+@media (min-width: 941px) and (min-width: 941px) {
+  .card-kira {
+    font-weight: 600;
   }
 }
 
@@ -286,7 +344,7 @@ body {
     margin: auto;
     grid-gap: 16px;
     height: 100vh;
-    padding: 14em 0;
+    padding: 13em 0;
     align-items: stretch;
     grid-template-areas: "daniel   daniel  jonathan  kira" "jeanette patrick patrick   kira";
   }

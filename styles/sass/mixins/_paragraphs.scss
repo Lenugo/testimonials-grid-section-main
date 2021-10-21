@@ -1,3 +1,5 @@
+@use "../mixins/responsive" as *;
+
 @mixin paragraphStyles($personColor, $principalSize, $secondarySize) {
   .card-paragraph__principal {
     padding: 20px 0;
@@ -6,7 +8,6 @@
 
     font: {
       size: $principalSize;
-      // weight: 600;
     }
   }
 
@@ -14,5 +15,9 @@
     color: $personColor;
     opacity: 70%;
     font-size: $secondarySize;
+  }
+
+  @include breakpoint() {
+    font-weight: 600;
   }
 }

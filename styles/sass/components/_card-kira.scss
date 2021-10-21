@@ -8,9 +8,9 @@
   grid-area: kira;
 
   @include cardProfileComponent(c.$white, c.$very-dark-grayish-blue, c.$very-dark-blackish-blue);
-  @include paragraphStyles(c.$very-dark-blackish-blue, 20.5px, 15.2px);
+  @include paragraphStyles(c.$very-dark-blackish-blue, 1.281rem, 0.95rem);
 
   @include breakpoint() {
-    @include paragraphStyles(c.$very-dark-blackish-blue, 20px, 13px);
+    @include paragraphStyles(c.$very-dark-blackish-blue, 1.25rem, 0.813rem);
   }
 }

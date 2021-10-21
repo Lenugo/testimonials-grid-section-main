@@ -1,7 +1,7 @@
 @use "../mixins/responsive" as *;
 
 .card {
-  width: 337px;
+  width: 21.063rem;
   height: max-content;
   margin: 1rem;
   padding: 1rem;
@@ -16,5 +16,6 @@
     width: auto;
     height: auto;
     margin: 0;
+    box-shadow: rgba(99, 99, 99, 0.2) 3px 2px 8px 0px;
   }
 }
