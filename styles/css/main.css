@@ -343,7 +343,6 @@ body {
     grid-template-rows: repeat(2, 1fr);
     margin: auto;
     grid-gap: 16px;
-    height: 100vh;
     padding: 13em 0;
     align-items: stretch;
     grid-template-areas: "daniel   daniel  jonathan  kira" "jeanette patrick patrick   kira";
